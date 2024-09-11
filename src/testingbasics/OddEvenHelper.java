@@ -28,6 +28,10 @@ public class OddEvenHelper {
         System.out.println("It is " + isEven(number) + " that " + number + " is even.");
         System.out.println("It is " + isOdd(number) + " that " + number + " is odd.");
 
+        if (isOdd(number)){
+            System.out.println("Wow, that's odd!");
+        }
+
         scanner.close();
     }
 }
